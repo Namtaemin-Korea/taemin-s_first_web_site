@@ -1,0 +1,41 @@
+#grid{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+  }
+#active{
+  color: darkgray;
+  text-decoration: underline;
+}
+#list{
+  border-right: 2px solid silver;
+  width: 340px  ;
+}
+h1{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid silver;
+  margin: 0;
+  padding: 20px;
+}
+h3{
+  text-align: center ;
+  margin: 0;
+}
+ol{
+  margin: 0;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  #list{
+    display: block;
+    border-right: none;
+    border-bottom: 2px solid silver;
+    width: 340px;
+  }
+}
