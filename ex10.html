@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+    var Subject = {
+        "programing":"C",
+        "front":"html"
+    }
+    document.write("programing : "+Subject.programing+"<br>");
+    document.write("front : "+Subject.front+"<br>");
+    Subject["Instagram ID"] = "taem_nii";
+    Subject.programing2 = "C++";
+    document.write("programing : "+Subject.programing2+"<br>");
+    document.write("Instagram ID : "+Subject["Instagram ID"]+"<br>");
+    
+    for (var key in Subject) {
+        document.write(key+" : "+Subject[key]+"<br>");
+    }
+    </script>
+</body>
+</html>
